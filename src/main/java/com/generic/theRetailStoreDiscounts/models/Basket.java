@@ -6,7 +6,7 @@ import lombok.Setter;
 import java.util.List;
 @Setter
 @Getter
-public class Bill {
+public class Basket {
 
     private List<Item> items;
 

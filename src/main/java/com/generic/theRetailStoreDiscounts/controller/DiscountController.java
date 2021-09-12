@@ -32,7 +32,8 @@ public class DiscountController {
     })
     @PostMapping("/v1/discounts")
     public BigDecimal createDiscount(@Valid @RequestBody DiscountRequest request) {
-        return discountService.discountCalculation(request.getUser(), request.getBill());
+
+        return discountService.discountCalculation(request.getUser(), request.getBasket());
     }
 
 }
