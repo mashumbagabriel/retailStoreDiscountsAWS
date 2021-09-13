@@ -1,4 +1,4 @@
-package com.generic.theRetailStoreDiscounts.models;
+package com.generic.retailStoreDiscounts.models;
 
 public enum ItemType {
     GROCERY,

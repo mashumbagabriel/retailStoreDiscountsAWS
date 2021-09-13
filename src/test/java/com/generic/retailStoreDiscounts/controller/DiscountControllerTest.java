@@ -1,4 +1,4 @@
-package com.generic.theRetailStoreDiscounts.controller;
+package com.generic.retailStoreDiscounts.controller;
 
 import org.junit.Test;
 

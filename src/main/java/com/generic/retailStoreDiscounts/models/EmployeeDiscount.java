@@ -1,4 +1,4 @@
-package com.generic.theRetailStoreDiscounts.models;
+package com.generic.retailStoreDiscounts.models;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,9 +8,9 @@ import java.math.BigDecimal;
 
 @Component
 @Data
-public class ZeroDiscount extends Discount {
+public class EmployeeDiscount extends Discount {
 
-    @Value("${discount.zero_discount.rate}")
+    @Value("${discount.employee.rate}")
     private BigDecimal discountRate;
 
     @Override

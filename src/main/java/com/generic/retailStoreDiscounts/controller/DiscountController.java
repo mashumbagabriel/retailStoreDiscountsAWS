@@ -1,7 +1,7 @@
-package com.generic.theRetailStoreDiscounts.controller;
+package com.generic.retailStoreDiscounts.controller;
 
-import com.generic.theRetailStoreDiscounts.models.DiscountRequest;
-import com.generic.theRetailStoreDiscounts.services.DiscountService;
+import com.generic.retailStoreDiscounts.models.DiscountRequest;
+import com.generic.retailStoreDiscounts.services.DiscountService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

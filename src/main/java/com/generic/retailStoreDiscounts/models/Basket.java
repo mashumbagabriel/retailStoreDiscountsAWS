@@ -1,4 +1,4 @@
-package com.generic.theRetailStoreDiscounts.models;
+package com.generic.retailStoreDiscounts.models;
 
 import lombok.Getter;
 import lombok.Setter;

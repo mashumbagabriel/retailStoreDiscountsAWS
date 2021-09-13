@@ -1,10 +1,9 @@
-package com.generic.theRetailStoreDiscounts;
+package com.generic.retailStoreDiscounts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import springfox.documentation.builders.ApiInfoBuilder;
-import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
@@ -27,7 +26,7 @@ public class TheRetailStoreDiscountApplication {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .paths(regex("/api.*"))
-                .apis(RequestHandlerSelectors.basePackage("com.generic.theRetailStoreDiscounts.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.generic.retailStoreDiscounts.controller"))
                 .build().apiInfo(metadata());
 
     }

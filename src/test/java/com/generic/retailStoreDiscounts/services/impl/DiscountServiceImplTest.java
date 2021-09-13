@@ -1,7 +1,7 @@
-package com.generic.theRetailStoreDiscounts.services.impl;
+package com.generic.retailStoreDiscounts.services.impl;
 
-import com.generic.theRetailStoreDiscounts.models.*;
-import com.generic.theRetailStoreDiscounts.services.DiscountService;
+import com.generic.retailStoreDiscounts.models.*;
+import com.generic.retailStoreDiscounts.services.DiscountService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
