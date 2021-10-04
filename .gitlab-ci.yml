@@ -1,0 +1,8 @@
+buildjob:
+  stage: build
+  tags:
+    - retail_store_discounts_aws
+  script:
+    - docker build -t docker pull mashumbagabriel/retail-store-discounts-aws:latest .
+    - docker image push mashumbagabriel/retail-store-discounts-aws:latest
+    - aws ecs update-service --cluster retailStoreCluster --service retailStore-service --force-new-deployment
